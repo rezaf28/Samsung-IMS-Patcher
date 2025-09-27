@@ -1,0 +1,3948 @@
+{
+  "note": "ImsSwitch for phone",
+  "defaultswitch": {
+    "enableIms": false,
+    "enableServiceVolte": false,
+    "enableServiceVowifi": false,
+    "enableServiceVilte": false,
+    "enableServiceSmsip": false,
+    "enableServiceDatachannel": false,
+    "enableServiceRcs": false,
+    "enableServiceRcschat": false,
+    "csc_customization" : []
+  },
+  "imsswitch": [
+    {
+      "mnoname": "DEFAULT"
+    },
+    {
+      "mnoname": "Tango_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ATT_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "ATT_US:TFN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "ATT_US:DSH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Liberty_PR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ATT_US:MVNO" // Turn off all
+    },
+    {
+      "mnoname": "ATT_US:GoogleGC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "ATT_US:AIO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "GenericIR92_US:WCW" // Turn off all"
+    },
+	{
+      "mnoname": "DPAC_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+	{
+      "mnoname": "ASTCA_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VZW_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true
+    },
+    {
+      "mnoname": "GRAMEENPHONE_BD",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VZW_US:CCT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "VZW_US:FKR", // Legacy Visible
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VZW_US:Visible", // New Visible
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VZW_US:CCTRoaming" // Turn off all
+    },
+    {
+      "mnoname": "VZW_US:GoogleGC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VZW_US:CHA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US:ASW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US:Inbound",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_US:GoogleFi",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US:PreDSH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US:DSH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Dish_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_US:Boost",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "USCC_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "USCC_US:GoogleFi",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Sprint_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "GenericIR92_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "GenericIR92_US:United",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "GCI_US",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "GenericIR92_US:PineCellular" // Turn off all
+    },
+    {
+      "mnoname": "SKT_KR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+        "mnoname": "KTRN_RW",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "KT_KR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "LGU+_KR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Docomo_JP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "KDDI_JP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Softbank_JP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Rakuten_JP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": false,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Telcel_MX",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_PE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_AR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_PY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_CO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_CL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_DO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_UY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Antel_UY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Claro_EC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_CR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_SV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_GT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_HN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_NI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_PA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": false,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Claro_PR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Tracfone_PR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "CMCC_CN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true,
+      "enableServiceDatachannel": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "CTC_CN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CU_CN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CBN_CN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CTC_MO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CTM_MO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "3_MO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "PCCW_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CSL_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CTG_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "CUHK_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "3_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Smartone_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Truphone_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "CMHK_HK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Oi_BR",
+      "enableIms": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Vivo_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Movistar_AR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Personal_AR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Movistar_PE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Entel_PE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_GT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Cable_PA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Entel_BO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_BO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Movistar_CL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Entel_CL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Wom_CL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Movistar_UY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Telenor_HU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_ME",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "MTS_RU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "MTS_AM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTS_BY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Velcom_BY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Sberbank_RU",
+      "enableIms": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TELE2_RU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_LV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_LT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_EE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ZEB_LT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "LMT_LV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "FET_TW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "APT_TW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "CHT_TW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TWM_TW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TSTAR_TW",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "1n1_DE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_DE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Truphone_DE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_IT:ho",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_IT:Postemobile",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Plintron_IT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Vianova_IT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Coopvoce_IT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Vodafone_RO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telefonica_ES:Tuenti",
+      "enableIms": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telefonica_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_GB:TESCO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_GB:giffgaff",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TelefonicaLAB_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Airtel_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Manx_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Lowi_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Finetwork_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Vodafone_IE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Vodafone_HU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Wind_GR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Vodafone_GR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_DE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_CZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_PL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_HU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "DIGI_HU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_GR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_MK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_ME",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_HR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Vodafone_HR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Telemach_HR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vipmobile_RS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_SK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "4ka_SK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_SK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Play_PL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "SFR_RE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bouygues_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "SFR_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Free_FR",
+      "enableIms": true,
+      "enableServiceVolte":true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "NRJ_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ACMOSS_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "EDF_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Coriolis_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Hubone_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "SPM_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zeop_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_MC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Jazz_PK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Zong_PK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "PTR_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Cellcom_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "HotMobile_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Wecom_IL",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Webbing_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "PCL_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telzar_IL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Telenor_BG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Vivacom_BG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Telstra_AU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Telstra_AU:MVNO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_AU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TwoDegree_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Spark_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VodafonePNG_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Astca_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VITI_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VodafoneFiji_NZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_DE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telefonica_CZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "EE_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Spusu_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tango_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "BTOP_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Sky_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Sure_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Lyca_GB",
+      "enableIms": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Lebara_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Hutchison_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Truphone_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Truphone_ES",
+      "enableIms": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Telecom_IT:Kena",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Windtre_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Telia_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telavox_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telia_EE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telia_NO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Truphone_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Mvno_NL",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "KPN_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Isala_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_NO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "IceNet_NO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Erate_NO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Telenor_DK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_PK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ufone_PK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_NL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_CZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Swisscom_CH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Sunrise_CH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "UPC_CH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_CH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "SBB_CH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_FR:Reunion",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_FR:Caraibe",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": false,
+      "enableServiceRcschat": false
+    },
+    {
+      "mnoname": "Orange_RO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_MA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true,
+      "csc_customization" : [
+        {
+          "csc" : "FWD",
+          "enableServiceRcs": false,
+          "enableServiceRcschat": false
+        }
+      ]
+    },
+    {
+      "mnoname": "Maroc_MA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_ES:MVNO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Orange_PL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_SK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_BE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_SN",
+      "enableIms": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_LU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "A1_AT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TMobile_AT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Spusu_AT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telekom_AL",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Vodafone_AL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Vodacom_ZA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_PT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Vodacom_LS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Econet_LS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Econet_ZW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Nova_IS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_IS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "3_DK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "3_IE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "3_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "AIS_TH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "DTAC_TH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Truemove_TH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vinaphone_VN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Viettel_VN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vietnamobile_VN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Mobifone_VN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Laotel_LA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+        "mnoname": "Unitel_LA",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Unitel_AO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telia_DK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Proximus_BE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telavox_BE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenet_BE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "YTL_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "UMobile_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "P1_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Celcom_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_MM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mytel_MM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "MPT_MM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Smartfren_ID",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telkomsel_ID",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Indosat_ID",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "3_ID",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname":"XL_ID",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Azercell_AZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bakcell_AZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Seatel_KH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Cellcard_KH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Smart_KH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Metfone_KH",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Smart_PH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Globe_PH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname":"DITO_PH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Singtel_SG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Starhub_SG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Starhub_SG:MVNO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mobileone_SG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TPG_SG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Imagine_BN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Progresif_BN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "UNN_BN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "DST_BN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "RJIL_IN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "AIRTEL_IN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "BSNL_IN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TashiCell_BT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_BT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ROBI_BD",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Banglalink_BD",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Optus_AU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MOI_QA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_QA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": false,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_QA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mobicom_MN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ondo_MN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "GMobile_MN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Alfa_LB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Viva_BH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zain_BH",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Batelco_BH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Viva_KW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_KW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zain_KW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mascom_BW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "STC_SA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MOBILY_SA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Yemen_YE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Etisalat_EG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_EG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "We_EG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_EG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Etisalat_AE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "DU_AE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_TR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_IN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "IDEA_IN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "AVEA_TR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Turkcell_TR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Turkcell_TR:NCP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "CellC_ZA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "MTN_ZA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTN_UG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "DIGI_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Maxis_MY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Alcom_FI",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "DNA_FI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Erillisverkot_FI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Elisa_FI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Elisa_EE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telia_FI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Meteor_IE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Sky_IE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mobitel_LK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Hutch_LK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Dialog_LK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "AIRTEL_LK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_MV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Dhiraagu_MV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "3_AT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TDC_DK",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Mtel_ME",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Telemach_SI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "T2_SI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTN_GH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_GH",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Omantel_OM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_OM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_OM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telkom_ZA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Rain_ZA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodacom_MZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Movitel_MZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodacom_TZ",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Airtel_TZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zain_SA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zain_JO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_JO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_ET",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Libyanamobile_LY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "LTT_LY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Almadar_LY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Umniah_JO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Mcci_IR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telekom_SI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Beeline_RU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Magticom_GE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Cellfie_GE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Post_LU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tango_LU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Megafon_RU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vimla_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Lyca_SE",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "VGR_SE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Plus_PL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Truphone_PL",
+      "enableIms": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTN_IR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Megafon_TJ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Babilon_TJ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "RDS_RO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Safaricom_KE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Airtel_KE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "JTL_KE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTN_NG",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "AIRTEL_NG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Airtel_UG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_TN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Orange_TN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TunisieTelecom_TN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ooredoo_MM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+        "mnoname": "Airtel_ZM",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "MTN_ZM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telekom_RS",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Orange_MD",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Moldcell_MD",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Virgin_KW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Virgin_GB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "VIP_MK",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Altel_KZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tele2_KZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telenor_RS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "LycaMobile_PT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "NOS_PT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Digi_PT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Airbus_MX",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Aliv_BS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Altan_MX",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Att_ius_MX",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Avantel_CO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Movistar_CO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Wom_CO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Movistar_EC",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Movistar_MX",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Orange_DO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Emtel_MU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_MU",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Tigo_CO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tim_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Bell_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bell_CA:SOL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bell_CA:PCM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "RWC_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "RWC_CA:TBT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "CHATR_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telus_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Telus_CA:PMB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Wind_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Wind_CA:SJR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "ESK_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "SaskTel_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "SaskTelLAB_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Koodo_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "VideoTron_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "Fizz_CA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "TMobile_RO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceRcs": true,
+      "enableServiceRcschat": true
+    },
+    {
+      "mnoname": "MEO_PT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Salt_LI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_LI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Beeline_KZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Motiv_RU",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telepost_GL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Namaste_NP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ncell_NP",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "A1_BG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "A1_SI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Vodafone_CY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Epic_CY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Primetel_CY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ALE_EC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_BA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Mtel_BA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Cable_BB",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Cable_JM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Vodafone_UA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Kyivstar_UA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Telecom_AD",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Lifecell_UA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Fastweb_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Lyca_IT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Iliad_IT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Spusu_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Digi_IT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bite_LT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Bite_LV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Yoigo_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Enel_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Avatel_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Siminn_IS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "UTS_CW",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_HN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "VTR_CL",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Personal_PY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_PY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_PA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Tigo_NI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Tigo_SV",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Salam_SA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+       "mnoname": "Redbull_SA",
+       "enableIms": true,
+       "enableServiceVolte": true,
+       "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Zain_IQ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "INWI_MA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Asiacell_IQ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "BTC_BS",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Americanet_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Cellone_BM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Viva_DO",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Gibtelecom_GI",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Megacom_KG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Beeline_KG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Nur_KG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Mobiuz_UZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Beeline_UZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Ucell_UZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Uztelecom_UZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Digi_BZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Digi_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "PTV_ES",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "BMobile_TT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "ENet_GY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Unifique_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Brisanet_BR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Surf_BR",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Epic_MT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "GO_MT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Melita_MT",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {  
+      "mnoname": "Cable_SC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "DAUPHIN_MF",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Paradise_BM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Arqia_BR",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Flow_VG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_GD",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_KN",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_AI",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_DM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_TC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_LC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Best_LA",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "TS32_DEFAULT",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Algar_BR",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "Zantel_TZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+   {
+      "mnoname": "Tigo_TZ",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "Digicel_JM",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "Flow_KY",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_AG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Flow_VC",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true
+    },
+    {
+      "mnoname": "Bitel_PE",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVilte": true
+    },
+    {
+      "mnoname": "APUA_AG",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceVowifi": true,
+      "enableServiceSmsip": true
+    },
+    {
+      "mnoname": "SETAR_AW",
+      "enableIms": true,
+      "enableServiceVolte": true
+    },
+    {
+      "mnoname": "OUTREMER_FR",
+      "enableIms": true,
+      "enableServiceVolte": true,
+      "enableServiceSmsip": true
+    }
+  ]
+}
+

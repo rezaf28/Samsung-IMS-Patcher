@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="scope">
+        <item>com.sec.imsservice</item>
+        <item>com.samsung.android.dialer</item>
+    </string-array>
+</resources>
