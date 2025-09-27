@@ -1,4 +1,9 @@
-# LSPosed — Samsung IMS Patcher
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/rezaf28/SamsungIMSPatcher/refs/heads/main/ims_bg.png" />
+  
+  Samsung IMS Patcher
+
+</h2>
 
 **Short description**
 
