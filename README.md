@@ -5,11 +5,6 @@
 
 </h1>
 
-**Short description**
-
-LSPosed module to unlock Samsung-restricted carrier-related features on rooted Galaxy devices (VoWiFi, VoLTE, ViLTE, RCS, SMS over IP).
-
-
 
 ## Overview
 
