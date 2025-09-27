@@ -13,7 +13,7 @@ import com.highcapable.yukihookapi.hook.xposed.proxy.IYukiHookXposedInit
 @InjectYukiHookWithXposed
 object HookEntry : IYukiHookXposedInit {
 
-    private val TARGETS = setOf("globalsettings", "imsprofile", "imsswitch", "mnomap")
+    private val TARGETS = setOf("globalsettings", "imsprofile", "imsswitch", "imsswitch_open", "imsswitch_tablet", "jibe_globalsettings", "jibe_imsprofile", "localconfig", "mnomap", "rcspolicy", "smssettings", "ts32profileupdate")
     private const val MODULE_PKG = "com.ims.patcher"
     private val reentrant = ThreadLocal.withInitial { false }
 
