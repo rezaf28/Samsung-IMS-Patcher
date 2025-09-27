@@ -1,15 +1,15 @@
-<h2 align="center">
+<h1 align="center">
   <img src="https://raw.githubusercontent.com/rezaf28/SamsungIMSPatcher/refs/heads/main/ims_bg.png" />
   
   Samsung IMS Patcher
 
-</h2>
+</h1>
 
 **Short description**
 
 LSPosed module to unlock Samsung-restricted carrier-related features on rooted Galaxy devices (VoWiFi, VoLTE, ViLTE, RCS, SMS over IP).
 
----
+
 
 ## Overview
 
@@ -17,7 +17,7 @@ This repository contains an LSPosed module that restores or unlocks certain IMS-
 
 > This README documents device requirements, the exact manual activation workflow (pulling `imsservice.apk`, extracting the raw JSON files, editing them, compiling the module), credits, and legal/disclaimer notes.
 
----
+
 
 ## Features
 
@@ -25,7 +25,6 @@ This repository contains an LSPosed module that restores or unlocks certain IMS-
 - Restore VoWiFi / VoLTE / ViLTE / RCS / SMS over IP behavior on supported Samsung Galaxy devices.
 - Minimal, transparent module that only replaces the four IMS raw files in `res/raw/`.
 
----
 
 ## Device requirements
 
@@ -38,7 +37,7 @@ Before using this module, ensure your device meets all of the following:
 
 > If your device or software version is outside these constraints the module may not work and could cause instability.
 
----
+
 
 ## Files this module replaces
 
@@ -51,7 +50,7 @@ The module replaces the following JSON resources from the stock `imsservice.apk`
 
 These files usually live inside the system `imsservice` APK supplied by Samsung. Replacing them at runtime allows IMS subsystems to read alternate operator/device-compatible values.
 
----
+
 
 ## Activation / Build workflow (step-by-step)
 
@@ -142,29 +141,28 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 4. Verify behavior (make a test VoWiFi/VoLTE call, check RCS availability, etc.).
 
 
----
+
 
 ## Security & Privacy
 
 - This module edits runtime configuration used by system services. It does **not** exfiltrate user data intentionally. However, incorrect edits can change how the device communicates with operator or vendor services.
 - Only use edited configuration files from sources you trust (preferably your own device's stock files).
 
----
+
 
 ## Disclaimer / Legal
 
 This software is provided **as-is**. Use at your own risk. The author(s) hold no responsibility for damage, service loss, or warranty voiding caused by using this module. This project may affect emergency calling or carrier services — proceed with caution.
 
----
+
 
 ## Credits
 
 Thanks to the projects and communities that made this work possible:
 
 - [LSPosed Team](https://github.com/LSPosed)
-- [YukiHookAPI](https://github.com/fankes/YukiHookAPI)
+- [YukiHookAPI](https://github.com/HighCapable/YukiHookAPI)
 
 
----
 
 
