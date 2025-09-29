@@ -36,12 +36,9 @@ Before using this module, ensure your device meets all of the following:
 
 ## Files this module replaces
 
-The module replaces the following JSON resources from the stock `imsservice.apk`:
+The module replaces the  JSON resources from the stock `imsservice.apk`:
 
-- `res/raw/globalsettings.json`
-- `res/raw/imsprofile.json`
-- `res/raw/imsswitch.json`
-- `res/raw/mnomap.json`
+- `res/raw/*.json`
 
 These files usually live inside the system `imsservice` APK supplied by Samsung. Replacing them at runtime allows IMS subsystems to read alternate operator/device-compatible values.
 
@@ -74,17 +71,15 @@ adb pull /system/priv-app/imsservice/imsservice.apk ./imsservice-stock.apk
 > Note: Paths may vary by device / firmware. If `pm path` fails, search common locations such as `/system/priv-app/`, `/product/priv-app/` or use a root file explorer on the device.
 
 
-### 2. Unpack the APK and extract the four `res/raw` files
+### 2. Unpack the APK and extract `res/raw` files
 
 Using `unzip` (quick):
 
 ```bash
 unzip imsservice-stock.apk "res/raw/*" -d ./ims-raw-extracted
-# then copy the four specific files
-cp ims-raw-extracted/res/raw/globalsettings.json ./app/src/main/res/raw/
-cp ims-raw-extracted/res/raw/imsprofile.json ./app/src/main/res/raw/
-cp ims-raw-extracted/res/raw/imsswitch.json ./app/src/main/res/raw/
-cp ims-raw-extracted/res/raw/mnomap.json ./app/src/main/res/raw/
+# then copy specific files
+cp ims-raw-extracted/res/raw/*.json ./app/src/main/res/raw/
+
 ```
 
 ### 3. Edit the extracted JSON files to match your operator
@@ -100,10 +95,7 @@ cp ims-raw-extracted/res/raw/mnomap.json ./app/src/main/res/raw/
 Make sure the files exist at:
 
 ```
-app/src/main/res/raw/globalsettings.json
-app/src/main/res/raw/imsprofile.json
-app/src/main/res/raw/imsswitch.json
-app/src/main/res/raw/mnomap.json
+app/src/main/res/raw/*.json
 ```
 
 If the `raw/` folder does not exist yet, create it.
